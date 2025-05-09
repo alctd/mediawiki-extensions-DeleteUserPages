@@ -42,7 +42,7 @@ class DeleteUserPages {
 		}
 
 		if (
-			( $ns === NS_USER || $ns === NS_USER_TALK )
+			( $ns === NS_USER )
 			&& $userName === $root
 			&& $userCan
 		) {
